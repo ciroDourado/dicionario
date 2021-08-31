@@ -1,5 +1,5 @@
-use dicionario::palavras::Dicionario;
-use dicionario::palavras::Palavra;
+use dicionario::Dicionario;
+use dicionario::Palavra;
 
 fn main() {
     let mut dicionario = Dicionario::novo();
