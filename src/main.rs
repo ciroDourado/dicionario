@@ -3,13 +3,13 @@ use dicionario::Palavra;
 
 fn main() {
     let mut dicionario = Dicionario::novo();
-    let dogue = Palavra::nova("Cachorrão", "doggo");
+    let dogue = Palavra::nova("catchorro", "doggo");
     let catin = Palavra::nova("Gatus", "MINHÉEEEU");
 
     dicionario.adicionar(dogue);
     dicionario.adicionar(catin);
 
-    print( dicionario.consultar("Cachorrão") );
+    print( dicionario.consultar("catchorro") );
     print( dicionario.consultar("Gatus")     );
 } // main
 
